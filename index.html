@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Intro Into JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+</head>
+<body>
+    <p>
+        Before the script...
+    </p>
+
+    <script src="js/alert.js">
+       
+    </script>
+
+    <script>
+        console.log('Taariq is here!');
+    </script>
+
+    <button onclick="myFunction()">Click Me</button>
+
+    <p id="fill">
+
+    </p>
+
+    <button onclick="myFill()">
+        Fill paragraph
+    </button>
+
+    <p>
+
+    </p>
+
+
+    <script>
+            function myFunction() {
+              alert("Hello World");
+            }
+
+            function myFill() {
+                document.getElementById("fill").innerHTML = "This is a test paragraph that I am Filling.";
+            }
+    </script>
+
+    <!-- <p>
+        After the script...
+    </p> -->
+    
+</body>
+</html>
