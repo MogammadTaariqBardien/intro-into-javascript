@@ -37,6 +37,9 @@ Tools:
 - Added basic JavaScript
 - Made Link Live
 
+2018-10-24:
+- Added more variables
+
 ## Contributors
 
 Mogammad Taariq Bardien - 2018
